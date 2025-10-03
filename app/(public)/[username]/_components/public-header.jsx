@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 
 
+
 const PublicHeader = ({ link, title }) => {
   return (
     <header className="border-b border-slate-800 sticky top-0 bg-slate-900/80 backdrop-blur-sm z-10">
