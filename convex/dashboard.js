@@ -153,7 +153,6 @@ export const getRecentActivity = query({
       for (const comment of comments) {
         const post = posts.find((p) => p._id === postId);
 
-        
         if (post) {
           activities.push({
             type: "comment",
